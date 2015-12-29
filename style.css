@@ -109,6 +109,7 @@ header nav a.button {
 	border-radius: 6px;
 	box-shadow: 0 2px 0 0 #e5e5e5;
 	padding-top: 64px;
+	margin-bottom: 2em;
 }
 
 #head-box h2 {
@@ -131,4 +132,94 @@ header nav a.button {
 	margin-top: 85.33;
 	width: 100%;
 	border-radius: 6px;
+}
+
+#four-items {
+	background-color: #ffffff;
+	border-radius: 6px;
+	box-shadow: 0 2px 0 0 #e5e5e5;
+	float: left;
+	margin-bottom: 2em;
+}
+
+#left-column {
+	float: left;
+	width: 50%;
+}
+
+#right-column {
+	float: right;
+	width: 50%;
+}
+
+.item {
+	width: 24em;
+	float: left;
+	text-align: center;
+}
+
+.item h3 {
+	margin: 0 0 0.5em 0;
+	font-size: 1.75em;
+	line-height: 1.5em;
+}
+
+.item p {
+	margin: 0 0 0 0;
+}
+
+.item.top {
+	margin-top: 3em;
+	padding-bottom: 3em;
+}
+
+.item.bottom {
+	margin-bottom: 3em;
+	padding-top: 3em;
+}
+
+#left-column .item {
+	margin-left: 3em;
+	padding-right: 3em;
+}
+
+#right-column .item {
+	margin-right: 3em;
+	padding-left: 3em;
+}
+
+#left-column .item.top {
+	border-style: solid;
+	border-color: #e5e5e5;
+	border-width: 0 2px 2px 0;
+}
+
+#right-column .item.bottom {
+	border-style: solid;
+	border-color: #e5e5e5;
+	border-width: 2px 0 0 2px;
+}
+
+.placeholder {
+	height: 5.5em;
+	width: 5.5em;
+	border-radius: 50%;
+	margin: auto;
+	margin-bottom: 2em;
+}
+
+#left-column .item.top  .placeholder {
+	background-color: #E89980;
+}
+
+#left-column .item.bottom .placeholder {
+	background-color: #90B0BA;
+}
+
+#right-column .item.bottom .placeholder {
+	background-color: #E5CB95;
+}
+
+#right-column .item.top  .placeholder {
+	background-color: #7FCDB8;
 }
