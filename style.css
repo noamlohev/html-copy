@@ -55,7 +55,7 @@ header nav a.button {
 	background-repeat: repeat, url(overlay.png);
 	background-size: auto, cover;
 	color: #ffffff;
-	padding: 12em 0 20em 0;
+	padding: 12em 0 405.328px 0;
 	text-align: center;
 }
 
@@ -102,6 +102,8 @@ header nav a.button {
 	margin-top:-12em;
 	margin-left:auto;
 	margin-right:auto;
+	padding-bottom: 4em;
+	overflow: auto;
 }
 
 #head-box {
@@ -117,6 +119,7 @@ header nav a.button {
 	font-size: 2.25em;
 	line-height: 1.5em;
 	font-weight: 300;
+	margin: 0 0 40px 0;
 }
 
 #head-box p {
@@ -228,6 +231,8 @@ header nav a.button {
 
 #double-feature {
 	width: 100%;
+	float: left;
+	margin-bottom: 2em;
 }
 
 #feature {
@@ -272,4 +277,63 @@ header nav a.button {
 
 #feature .button:hover {
 	background-color: #f8f8f8;
+}
+
+#sign-up {
+	text-align: center;
+	background-color: #e89980;
+	padding: 3.5em 0 4em 0;
+	color: #f9e5df;
+	
+}
+
+#sign-up h2 {	
+	font-size: 2.25em;
+    line-height: 1.5em;
+    letter-spacing: -0.035em;
+	margin: 0 0 24px 0;
+}
+
+#sign-up p {
+	margin: 0 0 2em 0;
+}
+
+#sign-up form {
+	margin: 0 auto;
+	width: 25em;
+	height: 3em;
+}
+
+#email {
+	color: #ffffff;
+	background: rgba(255, 255, 255, 0.15);
+	width: 66%;
+	height: 100%; 
+	font: inherit;
+	font-size: inherit;
+	border: 0;
+	border-radius: 6px;
+	padding: 0 1em;
+}
+
+#email:focus {
+	outline: 0;
+	box-shadow: inset 0 0 0 2px #ffffff;
+}
+
+::-webkit-input-placeholder {
+   color: #f9e5df;
+}
+
+#submit {
+	color: #e89980;
+	background-color: #ffffff;
+	width: 30%;
+	height: 100%; 
+	font: inherit;
+	font-size: inherit;
+	border: 0;
+	border-radius: 6px;
+	padding: 0;
+	margin-left:3%;
 }
