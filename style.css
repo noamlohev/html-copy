@@ -337,3 +337,52 @@ header nav a.button {
 	padding: 0;
 	margin-left:3%;
 }
+
+#submit:hover {
+	cursor: pointer;
+}
+
+footer {
+	padding: 4em 0 6em 0;
+	color: #999;
+	font-size: 0.9em;
+	line-height: 1em;
+}
+
+#icons {
+	list-style: none;
+	text-align: center;
+	margin: 0 0 2em 0;
+}
+
+#icons li {
+	display: inline-block;
+	width: 1em;
+	margin-right: 1em;
+}
+
+#icons li:last-child {
+	margin-right: 0;
+}
+
+#copyright {
+	list-style: none;
+	text-align: center;
+}
+
+#copyright li {
+	display: inline-block;
+	margin-right: 19.2px;
+	padding-right: 19.2px;
+	border-right: 1px solid #dddddd;
+}
+
+#copyright li a {
+	color: inherit;
+	border-bottom: 1px dotted;
+	transition: border-bottom-color 0.2s ease-in-out;
+}
+
+#copyright li a:hover {
+	border-bottom-color: transparent;
+}
